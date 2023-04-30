@@ -50,7 +50,7 @@ function App() {
     <>
       <section>
         <div className="absolute -z-10">
-          <img src={background} alt="" className="w-full h-80 object-cover" />
+          <img src={background} alt="" className="w-screen h-80 object-cover bg-cover" />
         </div>
         <article className="">
           <h1 className="text-2xl text-center lg:text-3xl text-white font-bold mb-8">Ip Address Tracker</h1>
@@ -76,7 +76,7 @@ function App() {
 
         <article
           className="relative bg-white rounded-lg shadow p-5 mx-16 mt-5
-      grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-4 mx-w-6xl 2xl:mx-auto text-center md:text-left lg:-mb-16"
+      grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-4 mx-w-6xl 4xl:mx-auto text-center md:text-left lg:-mb-16"
           style={{ zIndex: 10000 }}
         >
           <div className="lg:border-r lg:border-slate-400">
